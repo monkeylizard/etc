@@ -6,3 +6,5 @@ cd vim
 ./configure --with-features=huge --prefix=$HOME
 
 make VIMRUNTIMEDIR=$HOME
+
+PATH=$PATH:$(pwd)/src
